@@ -1,0 +1,204 @@
+@hd_color:#81868b;
+@dd_color:#b3b3b3;
+@num_color:#FF7E00;
+@dd_font_size:12px;
+@table_border_color:#e8e8e8;
+@table_font_color: #666666;
+@table_body_color:#eff0f1;
+@second_border_color:#999999;
+@input_padding:8px;
+.p {
+		    color: @num_color;
+		    font-size: 18px;
+		    font-weight: 800;
+		    line-height: 45px;
+ }
+.input1{    text-decoration: none;
+            font-size: @dd_font_size;
+            border-radius: 8px;
+            border:  none;}
+.input2{     
+            padding: @input_padding;
+            .input1;
+//          border 1px solid @dd_color;
+        }
+
+* {
+		margin: 0;
+		padding: 0;
+        text-decoration: none;
+	}
+.show{
+    display: block;
+}
+.hide {
+    display: none;
+}
+/* 头部分 */
+	header {
+		height: 26px;
+		background-color: @hd_color;
+		line-height: 26px;
+        span {
+		float: right;
+		color: #F3FFFF;
+		font-size: 12px;
+        }
+}
+/* 头部分结束 */
+/* nav部分开始 */
+nav {
+    height: 56px;
+    .logo {
+        img {
+		float: left;
+        margin: 5px 0 0 5px;
+        }
+        span {
+            float: left;
+            display: block;
+            line-height: 33px;
+            text-align: center;
+            width: 78px;
+            height: 33px;
+            padding-top: 10px;
+            margin: 10px 0px 0px 20px;
+            border-left: 1px solid @second_border_color;
+            
+	    }
+    
+    }
+    .info {
+        float: right;
+        padding: 30px 9px 0 0; 
+        span {
+		border-left: 1px solid @second_border_color;
+        padding:0 9px;
+	    }
+    }
+}
+///* 主体部分 */
+.body {
+		background-color: @table_body_color;
+        border-top:1px solid #e1e2e2;
+		border-bottom: 3px solid @dd_color;
+        position: relative;
+        .sum{
+            height: 62px;
+		    border-top: 3px solid #E1E2E2;
+            .s1 {
+                float: left;
+                margin: 23px 0 0 16px;
+                span {
+		        font-weight: 600;
+	            }
+            
+                
+            }
+            .s2 {
+                float:right;
+                margin: 23px 22px 0 0;
+                .h1 {
+		            color: #FC7900;
+		            font-size: 20px;
+		            font-weight: 800;
+	                }
+                
+                
+            }
+            }
+        #table {
+            width: 700px;
+		    height: 103px;
+		    border: 1px solid @table_border_color;
+            text-align: center;
+            color: @table_font_color;
+            th{
+		      font-size: 14px;
+		      font-weight: 600;
+             }
+            td{
+		       width: 120px;
+		       height: 35px;
+               line-height: 35px;
+		       font-size: @dd_font_size;
+	                }
+	       
+                }
+        #dd{
+		    height: 22px;
+            font-size: @dd_font_size;
+            #fj {
+                float: left;
+                margin-left: 250px;
+                color: @table_font_color;
+            }
+            input {
+		        float: right;
+		        width: 72px;
+                line-height:  20px;
+                margin-right: 20px;    
+		        background-color: @dd_color;
+		        color: #fff; 
+                .input1;
+                    }
+	            }
+}
+/* 支付页面 */
+#pay{
+        position: relative;
+        height: 500px;
+        width: 500px;
+        margin: 75px auto;
+        text-align: center;
+//        background-color: red;
+        
+    #payprev {  
+//            display: none;
+           h4 {
+		        font-size: 14px;
+                color: @table_font_color;
+	        }
+            .p;
+            img{
+                padding: 9px;
+                border: 2px solid @second_border_color;
+            }
+           }
+    #payover{
+        display: none;
+        position: absolute;
+        left: 25%;
+        top: 15%;
+        img {
+            margin: 30px auto;
+        }
+        .p;
+        #ret{
+            .input2;
+            background-color: #1890ff;
+             
+            }
+        #sui {
+            .input2;
+            color: #5a5a5a;
+            margin-left: 50px;
+            background-color: white;
+            border: 1px solid @dd_color;
+            
+        }
+        
+}
+}
+/* 底部 */
+	footer {
+		background-color: #fff;
+		border-top: 3px solid #B3B3B3;
+		height: 67px;
+        p {
+		color: #333333;
+		width: 430px;
+		margin: 39px auto;
+		font-size: @dd_font_size;
+	} 
+}

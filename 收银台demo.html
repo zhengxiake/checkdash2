@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>收银台02</title>
+	<link rel="stylesheet" href="test.css">
+	<script src="./jquery.js"></script>
+    <script type="text/javascript" src="test2.js"></script>
+</head>
+<body>
+	<!-- 头部分 -->
+	<header>
+		<span>您好，欢迎使用一窗收款机！</span>
+	</header><!-- /header -->
+	<!-- nav部分 -->
+	<nav>
+		<!-- logo部分 -->
+		<div class="logo">
+			<img src="image/logo1.png" alt="">
+			<span>收银台</span>
+		</div>
+		<!-- 公司信息部分 -->
+		<div class="info">
+			<a href="#">首页</a>
+			<span>技术支持：博思软件股份有限公司</span>
+		</div>
+	</nav>
+	<!-- 主体部分 -->
+<div class="body">
+<!--		 合计部分 -->
+		<div class="sum">
+			<div class="s1"><span>合并2笔缴费</span></div>
+			<div class="s2"><span class="h1" >100.00</span><span id="2">元</span></div>
+		</div>
+		<!-- 表格部分 -->
+		
+  <table class="table" id="table">
+			<!-- <tr>
+				<th></th>
+				<th>平台商户编号</th>
+				<th>平台商户名称</th>
+				<th>收款项目</th>
+				<th>收款金额（元）</th>
+				<th>备注</th>
+			</tr>
+			<tr>
+				<td class="t1">1</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td class="t2">2</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr> --> 
+			
+		</table>
+		<!-- 订单详情部分 -->
+		<div id="dd">
+            <span id="fj">福建非税机构</span>
+			<input type="button" id="db" value="订单详情">
+		</div>
+
+</div>
+	<!-- 支付部分 -->
+<div id="pay">
+	<div id="payprev" class="show">
+		<h4>	扫一扫付款（元）</h4>
+		<p>100.00</p>
+        <img src="image/2.png" alt="">
+    </div >
+    <div id="payover">
+        <img src="image/图层2.png" alt="">
+        <p>100.00元</p>
+        <input type="button" id="ret" value="返回商户业务系统" onclick="jump('http://www.baidu.com')" >
+         <input type="button" value="查看电子票" id="sui" onclick="jump('http://www.mi.com')" >
+  </div>   
+</div>
+
+	<!-- 底部 -->
+	<footer>
+		<p>技术支持：福建博思软件股份有限公司　©2011-2016 闽ICP备11009526号</p>
+	</footer>
+</body>
+</html>

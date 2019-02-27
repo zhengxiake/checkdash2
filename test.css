@@ -1,0 +1,199 @@
+.p {
+  color: #FF7E00;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 45px;
+}
+.input1 {
+  text-decoration: none;
+  font-size: 12px;
+  border-radius: 8px;
+  border: none;
+}
+.input2 {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 12px;
+  border-radius: 8px;
+  border: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+/* 头部分 */
+header {
+  height: 26px;
+  background-color: #81868b;
+  line-height: 26px;
+}
+header span {
+  float: right;
+  color: #F3FFFF;
+  font-size: 12px;
+}
+/* 头部分结束 */
+/* nav部分开始 */
+nav {
+  height: 56px;
+}
+nav .logo img {
+  float: left;
+  margin: 5px 0 0 5px;
+}
+nav .logo span {
+  float: left;
+  display: block;
+  line-height: 33px;
+  text-align: center;
+  width: 78px;
+  height: 33px;
+  padding-top: 10px;
+  margin: 10px 0px 0px 20px;
+  border-left: 1px solid #999999;
+}
+nav .info {
+  float: right;
+  padding: 30px 9px 0 0;
+}
+nav .info span {
+  border-left: 1px solid #999999;
+  padding: 0 9px;
+}
+.body {
+  background-color: #eff0f1;
+  border-top: 1px solid #e1e2e2;
+  border-bottom: 3px solid #b3b3b3;
+  position: relative;
+}
+.body .sum {
+  height: 62px;
+  border-top: 3px solid #E1E2E2;
+}
+.body .sum .s1 {
+  float: left;
+  margin: 23px 0 0 16px;
+}
+.body .sum .s1 span {
+  font-weight: 600;
+}
+.body .sum .s2 {
+  float: right;
+  margin: 23px 22px 0 0;
+}
+.body .sum .s2 .h1 {
+  color: #FC7900;
+  font-size: 20px;
+  font-weight: 800;
+}
+.body #table {
+  width: 700px;
+  height: 103px;
+  border: 1px solid #e8e8e8;
+  text-align: center;
+  color: #666666;
+}
+.body #table th {
+  font-size: 14px;
+  font-weight: 600;
+}
+.body #table td {
+  width: 120px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 12px;
+}
+.body #dd {
+  height: 22px;
+  font-size: 12px;
+}
+.body #dd #fj {
+  float: left;
+  margin-left: 250px;
+  color: #666666;
+}
+.body #dd input {
+  float: right;
+  width: 72px;
+  line-height: 20px;
+  margin-right: 20px;
+  background-color: #b3b3b3;
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  border-radius: 8px;
+  border: none;
+}
+/* 支付页面 */
+#pay {
+  position: relative;
+  height: 500px;
+  width: 500px;
+  margin: 75px auto;
+  text-align: center;
+}
+#pay #payprev {
+  color: #FF7E00;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 45px;
+}
+#pay #payprev h4 {
+  font-size: 14px;
+  color: #666666;
+}
+#pay #payprev img {
+  padding: 9px;
+  border: 2px solid #999999;
+}
+#pay #payover {
+  display: none;
+  position: absolute;
+  left: 25%;
+  top: 15%;
+  color: #FF7E00;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 45px;
+}
+#pay #payover img {
+  margin: 30px auto;
+}
+#pay #payover #ret {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #1890ff;
+}
+#pay #payover #sui {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 12px;
+  border-radius: 8px;
+  border: none;
+  color: #5a5a5a;
+  margin-left: 50px;
+  background-color: white;
+  border: 1px solid #b3b3b3;
+}
+/* 底部 */
+footer {
+  background-color: #fff;
+  border-top: 3px solid #B3B3B3;
+  height: 67px;
+}
+footer p {
+  color: #333333;
+  width: 430px;
+  margin: 39px auto;
+  font-size: 12px;
+}
